@@ -179,7 +179,7 @@ daily number of steps?
     newday_steps <- aggregate(steps ~ date, activity, sum, na.rm = TRUE )
     hist(newday_steps$steps)
 
-![]https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Newday_Steps.png
+![](https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Newday_Steps.png)
 3b.Calculate and report the mean and median total number of steps taken
 per day. Do these values differ from the estimates from the first part
 of the assignment?
