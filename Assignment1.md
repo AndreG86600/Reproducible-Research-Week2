@@ -114,6 +114,7 @@ total number of steps taken each day
 
     hist(daysteps$steps)
     
+![](https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/daystep.png)
 
 
 3.Calculate and report the mean and median of the total number of steps
