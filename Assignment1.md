@@ -113,8 +113,8 @@ barplot, research the difference between them. Make a histogram of the
 total number of steps taken each day
 
     hist(daysteps$steps)
-
-![](Assignment1_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+    
+https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Avg_Steps_Int.png
 
 3.Calculate and report the mean and median of the total number of steps
 taken per day
