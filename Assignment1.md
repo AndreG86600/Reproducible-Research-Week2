@@ -140,7 +140,7 @@ all days (y-axis)
     intervalsteps <- aggregate(steps ~ interval, activity, mean, na.rm = TRUE)
     plot(steps ~ interval, data = intervalsteps, type= "l")
 
-![](Assignment1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Time_series.png)
 
 2.Which 5-minute interval, on average across all the days in the
 dataset, contains the maximum number of steps?
@@ -179,8 +179,7 @@ daily number of steps?
     newday_steps <- aggregate(steps ~ date, activity, sum, na.rm = TRUE )
     hist(newday_steps$steps)
 
-![](Assignment1_files/figure-markdown_strict/unnamed-chunk-9-1.png)
-
+![]https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Newday_Steps.png
 3b.Calculate and report the mean and median total number of steps taken
 per day. Do these values differ from the estimates from the first part
 of the assignment?
