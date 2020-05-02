@@ -114,7 +114,7 @@ total number of steps taken each day
 
     hist(daysteps$steps)
     
-https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Avg_Steps_Int.png
+
 
 3.Calculate and report the mean and median of the total number of steps
 taken per day
@@ -225,4 +225,4 @@ this plot should look like using simulated data.
     plot(as.numeric(names(avgsteps_wnd)), avgsteps_wnd, xlab="Interval", ylab="Steps", main = "Avg Steps per Interval (weekend)", type="l")
     plot(as.numeric(names(avgsteps_wd)), avgsteps_wd, xlab="Interval", ylab="Steps", main = "Avg Steps per Interval (weekday)", type="l")
 
-![](Assignment1_files/figure-markdown_strict/unnamed-chunk-12-1.png)
+![](https://github.com/AndreG86600/Reproducible-Research-Week2/blob/master/Avg_Steps_Int.png)
